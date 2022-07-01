@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PrincipalMenu.unity
+    guid: 1f4eb5ce7654cfd4890c314361eb3c04
+  - enabled: 1
+    path: Assets/Scenes/0.0.unity
+    guid: 35c875f4427742643921e69772b621d6
+  - enabled: 1
+    path: Assets/Scenes/0.1.unity
+    guid: 9266c0787dc9aec48af0226d296310c6
+  - enabled: 1
+    path: Assets/Scenes/0.2.unity
+    guid: f496a09afd1d79e4e88f6ce1513f1379
+  - enabled: 1
+    path: Assets/Scenes/0.3.unity
+    guid: 5a8b72b56761de04e8e8b4b8531de1ab
+  - enabled: 1
+    path: Assets/Scenes/0.4.unity
+    guid: 0e14474414c48d44c9aa1e3d9f5397af
+  - enabled: 1
+    path: Assets/Scenes/0.5.unity
+    guid: 5c37058bb1d1053488912bc006468bf1
+  - enabled: 1
+    path: Assets/Scenes/1.0.unity
+    guid: a1159fcf5dff43949af1caa008bcb90a
+  - enabled: 1
+    path: Assets/Scenes/1.1.unity
+    guid: cf1a57f14ab45d14894b6604ecc8b795
+  - enabled: 1
+    path: Assets/Scenes/1.2.unity
+    guid: 28485338daf6b824980c6d2cdea921b3
+  - enabled: 1
+    path: Assets/Scenes/1.3.unity
+    guid: fac3fe8150c93cb47be3177038c88814
+  - enabled: 1
+    path: Assets/Scenes/1.4.unity
+    guid: 90aabd95214f9ce48b137868531ecfdf
+  - enabled: 1
+    path: Assets/Scenes/1.5.unity
+    guid: c693a9f0fc9054540a49366cd9fb915d
+  - enabled: 1
+    path: Assets/Scenes/2.0.unity
+    guid: b3b2cd2dc7e1bac4683d1b0c3e50c588
+  - enabled: 1
+    path: Assets/Scenes/2.1.unity
+    guid: 4cfceaf1101ffa84e933b82c17ef219d
+  - enabled: 1
+    path: Assets/Scenes/2.2.unity
+    guid: 77cb27925a3793342b6513fec17aa32c
+  - enabled: 1
+    path: Assets/Scenes/2.3.unity
+    guid: fb37db7c796d0544da704957f97d2d92
+  - enabled: 1
+    path: Assets/Scenes/2.4.unity
+    guid: 07f819844bf667b4faccf61f4c9af821
+  - enabled: 1
+    path: Assets/Scenes/2.5.unity
+    guid: d1908752800757547a85de84b35a1b96
+  - enabled: 1
+    path: Assets/Scenes/3.0.unity
+    guid: b83b3171f4002f64996aa9907fa93300
+  m_configObjects: {}
