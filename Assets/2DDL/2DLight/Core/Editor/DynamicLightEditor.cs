@@ -652,9 +652,8 @@ namespace DynamicLight2D
 					Vector3 direction = (Quaternion.AngleAxis((float)i *.25f * light.RangeAngle - light.RangeAngle *.25f, -lTransform.forward) * lTransform.up).normalized;
 
 					#if UNITY_5_6_OR_NEWER
-						newHandlePoint = (lTransform.position - Handles.FreeMoveHandle(
+						var fmh_657_7_638457580419512061 = Quaternion.identity; newHandlePoint = (lTransform.position - Handles.FreeMoveHandle(
 						lTransform.position + direction * r,
-						Quaternion.identity,
 						size * 0.035f, Vector3.zero, Handles.CircleHandleCap));
                     #else
 						newHandlePoint = (lTransform.position - Handles.FreeMoveHandle(
@@ -747,7 +746,7 @@ namespace DynamicLight2D
 
 				bool dirtyFreeMove = false;
 				Vector3 dif = Vector3.zero;
-				Vector3 newFreeHandlePoint = (Handles.FreeMoveHandle(lTransform.position,	Quaternion.identity,
+				var fmh_750_79_638457580419544505 = Quaternion.identity; Vector3 newFreeHandlePoint = (Handles.FreeMoveHandle(lTransform.position,
 					size * 0.35f, Vector3.zero, Handles.CircleHandleCap));
 
 				if (GUIUtility.hotControl == GetLastControlId() && !dirtyRotation){
@@ -1101,7 +1100,7 @@ namespace DynamicLight2D
 			Vector3 cwPos = light.transform.position + (Quaternion.AngleAxis(-light.RangeAngle *.5f, -light.transform.forward) * (light.transform.up)) * (light.LightRadius + HandleUtility.GetHandleSize(light.transform.position) * 0.3f);
 			Vector3 cwBasePos = light.transform.position + (Quaternion.AngleAxis(-light.RangeAngle * .5f, -light.transform.forward) * (light.transform.up)) * light.LightRadius;
 			#if UNITY_5_6_OR_NEWER
-			Vector3 cwHandle = Handles.FreeMoveHandle(cwPos, Quaternion.identity, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleHandleCap);
+			var fmh_1104_53_638457580419554100 = Quaternion.identity; Vector3 cwHandle = Handles.FreeMoveHandle(cwPos, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleHandleCap);
             #else
 			Vector3 cwHandle = Handles.FreeMoveHandle(cwPos, Quaternion.identity, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleCap);
 			#endif
@@ -1118,7 +1117,7 @@ namespace DynamicLight2D
 			cwPos = light.transform.position + (Quaternion.AngleAxis(light.RangeAngle *.5f, -light.transform.forward) * (light.transform.up)) * (light.LightRadius + HandleUtility.GetHandleSize(light.transform.position) * 0.3f);
 			cwBasePos = light.transform.position + (Quaternion.AngleAxis(light.RangeAngle * .5f, -light.transform.forward) * (light.transform.up)) * light.LightRadius;
 			#if UNITY_5_6_OR_NEWER
-			cwHandle = Handles.FreeMoveHandle(cwPos, Quaternion.identity, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleHandleCap);
+			var fmh_1121_45_638457580419559210 = Quaternion.identity; cwHandle = Handles.FreeMoveHandle(cwPos, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleHandleCap);
 			#else
 			cwHandle = Handles.FreeMoveHandle(cwPos, Quaternion.identity, HandleUtility.GetHandleSize(light.transform.position) * .04f, Vector3.zero, Handles.CircleCap);
 			#endif
